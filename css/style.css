@@ -1,0 +1,202 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #747704;
+}
+figure {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+hr {	
+	width: 96.8%;	
+	border: none;
+	border-top: medium double;	
+	display: inline-block;
+	position: absolute;
+	top: -0.7em;
+	padding: 0 0.25em;		
+}
+.shipImageAlignment {
+	margin-top: 2.9%;	
+}
+.feature{	
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 2%;
+}
+.projectTitles {	
+	font-size: 2em;
+	margin: 1% 0 1% 0;
+}
+.styleNameText {
+	font-weight: 100;
+	font-size: 4.285714285714286em;
+	text-align: right;
+	margin-right: 0;
+	margin-top: 15.5%;
+}
+.styleTitleText {
+	font-size: 1.428571428571429em;
+	text-align: right;
+	margin-right: 0;
+	margin-top: 0;
+}
+.alignCenter {
+	text-align: center;
+}
+.image {
+	margin-left: auto;
+	margin-right: auto;	
+}
+.silverColor {
+	color: #bcbbbb;	
+	font-weight: bold;	
+}
+.myPicAlign {
+	margin-left: 0;
+	margin-top: 5%;
+}
+.credit {
+	width: 100%;
+	position: absolute;
+	left: 2%;
+	top: 95%;			
+	color: #fff;
+	font-size: 1em;
+}
+.credit, a {
+	color: #fff;
+}
+.journeyQuote {	
+	width: 100%;
+	position: absolute;
+	z-index: 100;
+	left: 80%;
+	top: 25%;	
+	color: #fff;
+	font-family: Dancing Script;
+	font-size: 1.285714285714286em;
+}
+.projectLinkFont {
+	font-size: 1em;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.styleNameText {
+		font-size: 3.542857142857143em;
+		margin-top: 21%;
+	}
+	.styleTitleText {
+	font-size: 1.180952380952381em;	
+	}
+	.journeyQuote {			
+		font-size: 1.062857142857143em;
+	}
+	hr {	
+		width: 96.2%;
+	}
+	.myPicAlign {
+		margin-right: 0;	
+	}
+	.shipImageAlignment {
+		margin-top: 4%;	
+	}
+	.credit {				
+		font-size: 0.8266666666666667em;
+	}
+	.feature{	
+		font-size: 1.653333333333333em;		
+	}
+	.projectTitles {	
+		font-size: 1.6em;	
+	}
+	.projectLinkFont {
+		font-size: 0.8266666666666667em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.styleNameText {		
+		font-size: 2.742857142857143em;
+		margin-top: 31%;
+	}
+	.styleTitleText {
+		font-size: 0.9142857142857146em;
+	}
+	.journeyQuote {			
+		font-size: 0.822857142857143em;
+		top: 26%;
+	}
+	hr {	
+		width: 95.1%;	
+	}
+	.shipImageAlignment {
+		margin-top: 5%;	
+	}
+	.credit {				
+		font-size: 0.8266666666666667em;
+		left: 2.8%;
+		top: 94%;
+	}
+	.feature{	
+		font-size: 1.28em;		
+	}
+	.projectTitles {	
+		font-size: 1.2em;	
+	}	
+}
+
+@media (max-width: 767px) {
+	.myPicAlign {
+		//margin-left: 31.5%;
+		margin-top: 10%;
+	}
+	.styleNameText {	
+		font-size: 1.714285714285714em;	
+		//margin-right: 10%;
+		margin-top: 42%;
+	}
+	.styleTitleText{
+		font-size: 0.5714285714285716em;
+		//margin-right: 5%;
+	}
+	hr {	
+		width: 95%;	
+		//left: 16.5%;		
+	}
+	.shipImageAlignment {
+		margin-top: 4.6%;		
+	}
+	.journeyQuote {		
+		font-size: 0.5142857142857144em;
+		left: 85%;
+		top: 26%;
+	}
+	.credit {	
+		left: 4%;
+		top: 94.5%;
+		font-size: 0.4em;
+	}
+	.feature{	
+		font-size: 0.8em;		
+	}
+	.projectTitles {	
+		font-size: 0.8em;	
+	}	
+}
+@media (max-width: 480px) {
+
+}
+
+
