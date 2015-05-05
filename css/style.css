@@ -2,92 +2,102 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
-	box-sizing: border-box;	
+	box-sizing: border-box;
 }
-body{
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+
+body {
+	font: normal 300 1em/1.428 'Lato', sans-serif;
 	color: #747704;
 }
+
 figure {
 	margin: 0;
 }
+
 img {
 	max-width: 100%;
 	display: block;
-    margin-left: auto;
-    margin-right: auto 
+	margin: 0 auto 0 auto;
 }
-hr {	
-	width: 96.8%;	
+
+hr {
+	width: 97%;
 	border: none;
-	border-top: medium double;	
+	border-top: medium double;
 	display: inline-block;
 	position: absolute;
 	top: -0.7em;
-	padding: 0 0.25em;		
+	padding: 0 0.25em;
 }
+
 .shipImageAlignment {
-	margin-top: 2.9%;	
+	margin-top: 2.9%;
 }
-.feature{	
-	font-size: 2em;
-	font-weight: bold;
+
+.feature {	
 	padding-left: 2%;
 }
-.projectTitles {	
+
+.projectTitles {
 	font-size: 2em;
 	margin: 1% 0 1% 0;
 }
+
 .styleNameText {
-	font-weight: 100;
-	font-size: 4.285714285714286em;
+	font: normal 100 4.285714285714286em/1.428 'Lato', sans-serif;
 	text-align: right;
-	margin-right: 0;
-	margin-top: 15.5%;
+	margin: 19% 0 0 0;
 }
+
 .styleTitleText {
 	font-size: 1.428571428571429em;
 	text-align: right;
-	margin-right: 0;
-	margin-top: 0;
+	margin: 0 0 0 0;
 }
+
 .alignCenter {
 	text-align: center;
 }
+
 .image {
-	margin-left: auto;
-	margin-right: auto;	
+	margin: 0 auto 0 auto;
 }
+
 .silverColor {
-	color: #bcbbbb;	
-	font-weight: bold;	
+	color: #bcbbbb;
+	font-weight: bold;
 }
+
 .myPicAlign {
-	margin-left: 0;
-	margin-top: 5%;
+	margin: 5% 0 1% 0;
 }
+
 .credit {
 	width: 100%;
 	position: absolute;
 	left: 2%;
-	top: 95%;			
+	top: 95%;
 	color: #fff;
-	font-size: 1em;
 }
+
 .credit, a {
 	color: #fff;
 }
-.journeyQuote {	
+
+.journeyQuote {
 	width: 100%;
 	position: absolute;
 	z-index: 100;
-	left: 80%;
-	top: 25%;	
+	left: 85%;
+	top: 25%;
 	color: #fff;
-	font-family: Dancing Script;
-	font-size: 1.285714285714286em;
+	font: normal 300 1.285714285714286em/1.428 Dancing Script, script;
 }
+
+.alignRight {
+	margin-left: 8%;
+}
+
 .projectLinkFont {
 	font-size: 1em;
 }
@@ -96,158 +106,194 @@ hr {
 
 	.styleNameText {
 		font-size: 3.542857142857143em;
-		margin-top: 21%;
+		margin-top: 25%;
 	}
+
 	.styleTitleText {
-	font-size: 1.180952380952381em;	
+		font-size: 1.180952380952381em;
 	}
-	
-	.journeyQuote {			
+
+	.journeyQuote {
 		font-size: 1.062857142857143em;
 	}
-	
-	hr {	
+
+	hr {
 		width: 96.2%;
 	}
+
 	.myPicAlign {
-		margin-right: 0;	
+		margin-right: 0;
 	}
+
 	.shipImageAlignment {
-		margin-top: 4%;	
+		margin-top: 3.3%;
 	}
-	.credit {				
+
+	.credit {
 		font-size: 0.8266666666666667em;
 	}
-	.feature{	
-		font-size: 1.653333333333333em;		
+
+	.feature {
+		font-size: 1.653333333333333em;
 	}
-	.projectTitles {	
-		font-size: 1.6em;	
+
+	.projectTitles {
+		font-size: 1.6em;
 	}
+
 	.projectLinkFont {
 		font-size: 0.8266666666666667em;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.styleNameText {		
+
+	.styleNameText {
 		font-size: 2.742857142857143em;
-		margin-top: 31%;
+		margin-top: 35%;
 	}
+
 	.styleTitleText {
 		font-size: 0.9142857142857146em;
 	}
-	.journeyQuote {			
+
+	.journeyQuote {
 		font-size: 0.822857142857143em;
 		top: 26%;
 	}
-	hr {	
-		width: 95.1%;	
+
+	hr {
+		width: 95.1%;
 	}
+
 	.shipImageAlignment {
-		margin-top: 5%;	
+		margin-top: 4.3%;
 	}
-	.credit {				
+
+	.credit {
 		font-size: 0.8266666666666667em;
 		left: 2.8%;
 		top: 94%;
 	}
-	.feature{	
-		font-size: 1.28em;		
+
+	.feature {
+		font-size: 1.28em;
 	}
-	.projectTitles {	
-		font-size: 1.2em;	
-	}	
+
+	.projectTitles {
+		font-size: 1.2em;
+	}
 }
 
 @media (max-width: 767px) {
-	
-	.styleNameText {	
-		font-size: 2.742857142857143em;			
-		margin-top: 31%;
+
+	.styleNameText {
+		font-size: 2.742857142857143em;
+		margin-top: 35%;
 	}
-	
-	.styleTitleText{
-		font-size: 0.9142857142857146em;		
+
+	.styleTitleText {
+		font-size: 0.9142857142857146em;
 	}
-	
-	hr {	
-		display: none;		
-	}
-	.journeyQuote {		
+
+	hr {
 		display: none;
 	}
+
+	.journeyQuote {
+		display: none;
+	}
+
 	.blockPics {
 		display: block;
 	}
-	.feature{	
-		text-align: center;		
+
+	.feature {
+		text-align: center;
 	}
 }
 
 @media (max-width: 481px) {
-	.styleNameText {	
-		font-size: 2em;			
-		margin-top: 54%;
-	}	
-	.styleTitleText{
-		font-size: 0.9em;		
-	}	
-	hr {	
-		display: none;		
+
+	.styleNameText {
+		font-size: 2em;
+		margin-top: 60%;
 	}
-	.journeyQuote {		
+
+	.styleTitleText{
+		font-size: 0.9em;
+	}
+
+	hr {
 		display: none;
 	}
+
+	.journeyQuote {
+		display: none;
+	}
+
 	.blockPics {
 		display: block;
 	}
-	.feature{	
-		text-align: center;		
+
+	.feature {
+		text-align: center;
 	}
 }
 
 @media (max-width: 400px) {
-	.styleNameText {	
-		font-size: 1.5em;			
-		margin-top: 75%;
-	}	
-	.styleTitleText{
-		font-size: 0.6em;		
-	}	
-	hr {	
-		display: none;		
+
+	.styleNameText {
+		font-size: 1.5em;
+		margin-top: 88%;
 	}
-	.journeyQuote {		
+
+	.styleTitleText {
+		font-size: 0.6em;
+	}
+
+	hr {
 		display: none;
 	}
+
+	.journeyQuote {
+		display: none;
+	}
+
 	.blockPics {
 		display: block;
 	}
-	.feature{	
-		text-align: center;		
+
+	.feature {
+		text-align: center;
 	}
 }
 @media (max-width: 299px) {
-	.styleNameText {	
-		font-size: 1em;			
-		margin-top: 65%;
-	}	
-	.styleTitleText{
-		font-size: 0.4em;		
-	}	
-	hr {	
-		display: none;		
+
+	.styleNameText {
+		font-size: 1em;
+		margin-top: 90%;
 	}
-	.journeyQuote {		
+
+	.styleTitleText {
+		font-size: 0.4em;
+	}
+
+	hr {
 		display: none;
 	}
+
+	.journeyQuote {
+		display: none;
+	}
+
 	.blockPics {
 		display: block;
 	}
-	.feature{	
-		text-align: center;	
-		font-size: 1em;				
+
+	.feature {
+		text-align: center;
+		font-size: 1em;
 	}
 }
 
