@@ -20,18 +20,14 @@ img {
 	margin: 0 auto 0 auto;
 }
 
-hr {
-	width: 97%;
+.hrAlign {
+	position: absolute;	
 	border: none;
 	border-top: medium double;
-	display: inline-block;
-	position: absolute;
+	display: inline-block;	
 	top: -0.7em;
 	padding: 0 0.25em;
-}
-
-.shipImageAlignment {
-	margin-top: 2.9%;
+	margin: 5% 0 5% 0;
 }
 
 .feature {	
@@ -43,16 +39,12 @@ hr {
 	margin: 1% 0 1% 0;
 }
 
-.styleNameText {
-	font: normal 100 4.285714285714286em/1.428 'Lato', sans-serif;
-	text-align: right;
-	margin: 19% 0 0 0;
+.styleNameText {		
+	text-align: right;	
 }
 
-.styleTitleText {
-	font-size: 1.428571428571429em;
-	text-align: right;
-	margin: 0 0 0 0;
+.styleTitleText {	
+	text-align: right;	
 }
 
 .alignCenter {
@@ -69,14 +61,12 @@ hr {
 }
 
 .myPicAlign {
-	margin: 5% 0 1% 0;
+	margin: 5% 0 10% 0;
 }
 
 .credit {
 	width: 100%;
-	position: absolute;
-	left: 2%;
-	top: 95%;
+	position: absolute;	
 	color: #fff;
 }
 
@@ -84,218 +74,286 @@ hr {
 	color: #fff;
 }
 
-.journeyQuote {
-	width: 100%;
-	position: absolute;
-	z-index: 100;
-	left: 85%;
-	top: 25%;
-	color: #fff;
-	font: normal 300 1.285714285714286em/1.428 Dancing Script, script;
-}
-
 .alignRight {
 	margin-left: 8%;
 }
 
-.projectLinkFont {
-	font-size: 1em;
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
+/* Custom, iPhone Retina */ 
+@media (min-width: 200px) {
 	.styleNameText {
-		font-size: 3.542857142857143em;
-		margin-top: 25%;
+		font-size: 1.4em;
+		margin: 55% 0 0 0;
 	}
-
-	.styleTitleText {
-		font-size: 1.180952380952381em;
+	
+	.styleTitleText {	
+		font-size: 1em;
+		margin: 1% 0 0 1%;
 	}
-
-	.journeyQuote {
-		font-size: 1.062857142857143em;
+	
+	.hrAlign {
+		width: 83%;
 	}
-
-	hr {
-		width: 96.2%;
-	}
-
-	.myPicAlign {
-		margin-right: 0;
-	}
-
+	
 	.shipImageAlignment {
-		margin-top: 3.3%;
+		margin-top: 10%;
 	}
-
+	
 	.credit {
-		font-size: 0.8266666666666667em;
+		font-size: 0.8em;
+		font-weight: bold;
+		left: 10%;
+		top: 80%;
+	}
+	
+	.journeyQuote {
+		display: none;
 	}
 
 	.feature {
-		font-size: 1.653333333333333em;
+		font-size: 1.5em;
+	}	
+	
+	.projectLinkFont {
+		font-size: 1em;
+	}
+	
+	.projectTitles {
+		font-size: 2em;
+	}
+}
+
+@media (min-width : 320px) {
+	.styleNameText {
+		font-size: 2.4em;
+		margin: 62% 0 0 0;
+	}
+	
+	.styleTitleText {	
+		font-size: 1.2em;
+		margin: 3% 0 0 1%;
+	}
+	
+	.hrAlign {
+		width: 89%;
+	}
+	
+	.shipImageAlignment {
+		margin-top: 10%;
+	}
+	
+	.credit {
+		font-size: 1.3em;		
+		left: 7%;
+		top: 85%;
+	}
+	
+	.journeyQuote {
+		display: none;
 	}
 
-	.projectTitles {
-		font-size: 1.6em;
+	.feature {
+		font-size: 2em;
 	}
 
 	.projectLinkFont {
-		font-size: 0.8266666666666667em;
+		font-size: 2em;
+	}
+	
+	.projectTitles {
+		font-size: 2.5em;
+	}	
+}
+
+@media (min-width: 414px) {
+	.styleNameText {			
+		margin: 67% 0 0 0;
+	}
+	
+	.hrAlign {
+		width: 91.5%;
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-
-	.styleNameText {
-		font-size: 2.742857142857143em;
-		margin-top: 35%;
+/* Extra Small Devices, Phones */ 
+@media (min-width : 480px) {
+	.styleNameText {		
+		font-size: 3.8em;
+		margin: 28% 0 0 0;
 	}
-
-	.styleTitleText {
-		font-size: 0.9142857142857146em;
+	
+	.styleTitleText {		
+		font-size: 2.5em;
+		margin: 3% 0 0 1%;
 	}
-
-	.journeyQuote {
-		font-size: 0.822857142857143em;
-		top: 26%;
+	
+	.hrAlign {
+		width: 93.5%;
 	}
-
-	hr {
-		width: 95.1%;
-	}
-
+	
 	.shipImageAlignment {
-		margin-top: 4.3%;
+		margin-top: 13%;
+	}
+	
+	.credit {
+		font-size: 2.1em;		
+		left: 3%;
+		top: 89%;
+	}
+	
+	.journeyQuote {
+		display: none;
 	}
 
+	.feature {
+		font-size: 3em;
+	}
+
+	.projectLinkFont {
+		font-size: 3em;
+	}
+	
+	.projectTitles {
+		font-size: 3em;
+	}	
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) {
+	.styleNameText {	
+		font-weight: 100;
+		font-size: 4.5em;
+		margin: 26% 0 0 0;
+	}
+	
+	.styleTitleText {		
+		font-size: 2.6em;
+		margin: 3% 0 0 1%;
+	}
+	
+	.hrAlign {
+		width: 93.5%;
+		margin: 3% 0 3% 0; 
+	}
+	
+	.shipImageAlignment {
+		margin-top: 9%;
+	}
+	
 	.credit {
-		font-size: 0.8266666666666667em;
-		left: 2.8%;
+		font-size: 2.1em;		
+		left: 3%;
+		top: 89%;
+	}
+	
+	.journeyQuote {
+		display: none;
+	}
+
+	.feature {
+		font-size: 3em;
+	}
+
+	.projectLinkFont {
+		font-size: 3em;
+	}
+	
+	.projectTitles {
+		font-size: 3em;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+	.styleNameText {	
+		font-weight: 100;
+		font-size: 4.5em;
+		margin: 20% 0 0 0;
+	}
+	
+	.styleTitleText {		
+		font-size: 2.6em;
+		margin: 3% 0 0 1%;
+	}
+	
+	.hrAlign {
+		width: 96.5%;
+		margin: 0; 
+	}
+	
+	.shipImageAlignment {
+		margin-top: 3.5%;
+	}
+	
+	.credit {
+		font-size: 2.1em;		
+		left: 3%;
 		top: 94%;
 	}
-
-	.feature {
-		font-size: 1.28em;
+	
+	.journeyQuote {
+		display: none;
 	}
 
+	.feature {
+		font-size: 3em;
+	}
+
+	.projectLinkFont {
+		font-size: 3em;
+	}
+	
 	.projectTitles {
-		font-size: 1.2em;
-	}
+		font-size: 3em;
+	}	
+
 }
 
-@media (max-width: 767px) {
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
 
-	.styleNameText {
-		font-size: 2.742857142857143em;
-		margin-top: 35%;
+	.styleNameText {	
+		font-weight: 100;
+		font-size: 4.5em;
+		margin: 18% 0 0 0;
 	}
-
-	.styleTitleText {
-		font-size: 0.9142857142857146em;
+	
+	.styleTitleText {		
+		font-size: 2.6em;
+		margin: 1% 0 0 1%;
 	}
-
-	hr {
-		display: none;
+	
+	.hrAlign {
+		width: 97%;
+		margin: 0; 
 	}
-
+	
+	.shipImageAlignment {
+		margin-top: 3.5%;
+	}
+	
+	.credit {
+		font-size: 2.1em;		
+		left: 3%;
+		top: 94%;
+	}
+	
 	.journeyQuote {
 		display: none;
 	}
 
-	.blockPics {
-		display: block;
+	.feature {
+		font-size: 3em;
 	}
 
-	.feature {
-		text-align: center;
+	.projectLinkFont {
+		font-size: 3em;
 	}
+	
+	.projectTitles {
+		font-size: 3em;
+	}	
 }
 
-@media (max-width: 481px) {
-
-	.styleNameText {
-		font-size: 2em;
-		margin-top: 60%;
-	}
-
-	.styleTitleText{
-		font-size: 0.9em;
-	}
-
-	hr {
-		display: none;
-	}
-
-	.journeyQuote {
-		display: none;
-	}
-
-	.blockPics {
-		display: block;
-	}
-
-	.feature {
-		text-align: center;
-	}
-}
-
-@media (max-width: 400px) {
-
-	.styleNameText {
-		font-size: 1.5em;
-		margin-top: 88%;
-	}
-
-	.styleTitleText {
-		font-size: 0.6em;
-	}
-
-	hr {
-		display: none;
-	}
-
-	.journeyQuote {
-		display: none;
-	}
-
-	.blockPics {
-		display: block;
-	}
-
-	.feature {
-		text-align: center;
-	}
-}
-@media (max-width: 299px) {
-
-	.styleNameText {
-		font-size: 1em;
-		margin-top: 90%;
-	}
-
-	.styleTitleText {
-		font-size: 0.4em;
-	}
-
-	hr {
-		display: none;
-	}
-
-	.journeyQuote {
-		display: none;
-	}
-
-	.blockPics {
-		display: block;
-	}
-
-	.feature {
-		text-align: center;
-		font-size: 1em;
-	}
-}
 
 
 
