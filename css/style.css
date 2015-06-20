@@ -130,6 +130,9 @@ img {
 	.hrAlign {
 		width: 88%;
 	}
+	.projectLinkFont {
+		font-size: 1.08em;
+	}
 }
 
 @media (min-width : 320px) {
@@ -165,9 +168,10 @@ img {
 		font-size: 2em;
 	}
 
-	.projectLinkFont {
-		font-size: 2em;
+	.projectLinkFont {		
+		font-size: 1.13em;
 	}
+	
 	
 	.projectTitles {
 		font-size: 2.5em;
@@ -187,6 +191,9 @@ img {
 	
 	.hrAlign {
 		width: 91.5%;
+	}
+	.projectLinkFont {
+		font-size: 1.3em;
 	}
 }
 
@@ -225,7 +232,7 @@ img {
 	}
 
 	.projectLinkFont {
-		font-size: 3em;
+		font-size: 1.3em;
 	}
 	
 	.projectTitles {
@@ -270,7 +277,7 @@ img {
 	}
 
 	.projectLinkFont {
-		font-size: 3em;
+		font-size: 1em;
 	}
 	
 	.projectTitles {
@@ -315,7 +322,7 @@ img {
 	}
 
 	.projectLinkFont {
-		font-size: 3em;
+		font-size: 1.13em;
 	}
 	
 	.projectTitles {
@@ -362,7 +369,7 @@ img {
 	}
 
 	.projectLinkFont {
-		font-size: 3em;
+		font-size: 1.25em;
 	}
 	
 	.projectTitles {
