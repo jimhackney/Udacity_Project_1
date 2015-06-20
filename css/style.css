@@ -122,14 +122,24 @@ img {
 	}
 }
 
+@media (min-width : 299px) {
+	.styleNameText {
+		font-size: 1.4em;
+		margin: 70% 0 0 0;
+	}
+	.hrAlign {
+		width: 88%;
+	}
+}
+
 @media (min-width : 320px) {
 	.styleNameText {
-		font-size: 2.4em;
-		margin: 62% 0 0 0;
-	}
+		font-size: 2.2em;
+		margin: 73% 0 0 0;
+	}	
 	
 	.styleTitleText {	
-		font-size: 1.2em;
+		font-size: 0.9em;
 		margin: 3% 0 0 1%;
 	}
 	
@@ -165,8 +175,14 @@ img {
 }
 
 @media (min-width: 414px) {
-	.styleNameText {			
+	.styleNameText {	
+		font-size: 2.9em;
 		margin: 67% 0 0 0;
+	}
+	
+	.styleTitleText {	
+		font-size: 1.3em;
+		margin: 3% 0 0 1%;
 	}
 	
 	.hrAlign {
@@ -177,17 +193,17 @@ img {
 /* Extra Small Devices, Phones */ 
 @media (min-width : 480px) {
 	.styleNameText {		
-		font-size: 3.8em;
-		margin: 28% 0 0 0;
+		font-size: 3em;
+		margin: 54% 0 0 0;
 	}
 	
 	.styleTitleText {		
-		font-size: 2.5em;
+		font-size: 1.5em;
 		margin: 3% 0 0 1%;
 	}
 	
 	.hrAlign {
-		width: 93.5%;
+		width: 92.5%;
 	}
 	
 	.shipImageAlignment {
@@ -195,9 +211,9 @@ img {
 	}
 	
 	.credit {
-		font-size: 2.1em;		
-		left: 3%;
-		top: 89%;
+		font-size: 1em;		
+		left: 4%;
+		top: 94%;
 	}
 	
 	.journeyQuote {
